@@ -21,6 +21,34 @@ img {
     display: flex;
 }
 
+
+/* header css */
+
+.header-section {
+    background-color: #ac8256;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logu {
+    margin: 10px 15px;
+    padding: 10px 5px;
+    color: #fff;
+}
+
+
+.main-menu li {
+    list-style: none;
+    font-size: 18px;
+    margin: 10px 15px;
+    padding: 10px 5px;
+    color: #fff;
+}
+
+
 /* banner css */
 
 .banner-section {
@@ -83,9 +111,10 @@ img {
 
 .About-section {
     padding: 50px 0;
-    background-image: url(images/Frame\ 56.jpg);
+    background-image: url(images/7.png);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
 
 .about-img {
@@ -113,6 +142,7 @@ img {
 
 .recipie-section {
     padding: 50px 0;
+    background: #f3dade;
 }
 
 .receip-sec-title {
@@ -155,6 +185,57 @@ img {
     border-radius: 20px;
     margin-top: 10px;
 }
+
+/* cook css */
+
+.cook-section {
+    padding: 60px 0;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cook-title {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.cook-title h1 {
+    font-size: 40px;
+}
+
+.cook-title p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.cook-item {
+    margin-top: 80px;
+}
+
+.all-cook {
+    box-shadow: 2px 3px 30px rgba(0, 0, 0, .4);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cook-two {
+    margin: 0 50px
+}
+
+.all-cook h2 {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.all-cook p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
 
 /* counter css */
 
